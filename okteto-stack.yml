@@ -1,0 +1,8 @@
+services:
+  drone-vc-p:
+    build: .
+    environment:
+      CONFIG_FILE_URL: $CONFIG_FILE_URL  
+    resources:
+      cpu: 1000m
+      memory: 3Gi
